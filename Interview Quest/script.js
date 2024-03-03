@@ -766,3 +766,34 @@
 // 58)  what is palindrome?
 // koi bhi string ko age se pdho ya piche se padho voh same  ho to palindrome hai.
 // example: level, aba
+
+// 59) Some String related questions. 
+// * convert str into array.
+// let str = "Hello, How are you"
+// console.log(str.split())
+// * convert str into array with each character.
+// console.log([...str]) 
+// * convert str into array with space or any sequence
+// console.log(str.split(' '))
+// * replace any character 
+// console.log(str.replace('H', '_')) or if u want to replace all the 'H' from the string then console.log(str.replace(/H/g,'_'));
+// * how to get substring from a string
+// console.log(str.substring(6,10))
+// * how to remove last and first character from String
+// console.log('first character remove',str.substring(1,str.length))
+// console.log('last character remove',str.substring(1,str.length-1))
+// * Remove string before specific character
+// let temp=str.split('o')
+// console.log(temp[0])
+// * Reverse a string using split(), reverse
+// console.log(str.split('').reverse('').join(''))
+// * how to remove extra spaces from both sides in string
+// console.log(str.trim());
+// * how to remove spaces from only left and only right side of the string
+// let str = '        hello      '
+// console.log('remove space from left side',str.trimStart())
+// console.log('remove space from right side',str.trimEnd())
+// * how to concat two strings 
+// let str = 'hello'
+// let str1 = 'world'
+// console.log(str1.concat(str))
